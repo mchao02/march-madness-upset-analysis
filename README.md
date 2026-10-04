@@ -1,15 +1,15 @@
 # March Madness Upset Analysis
-A python project exploring NCCAA men's basketball tournament results, seeding, and regular-season team statistics dating from 2008 to 2025
+A python project exploring NCAA men's basketball tournament results, seeding, and regular-season team statistics dating from 2008 to 2025
 
 ## Objective
-Investiage whether differences in regular season performance can help identify tournament upsets which is when a team with a higher seed defeats a team with a lower seed.
+Investigate whether differences in regular season performance can help identify tournament upsets which is when a team with a higher seed defeats a team with a lower seed.
 
 ## Approach
 - Transform regular season results into team level season averages
 - Calculate advanced basketball metrics such as net rating, effective field goal percentage, turnover rate, offensive rebounding rate, free-throw rate, tempo, and defensive effiency
 - Combine team statistics with tournament results and seeds
 - Train a logistic regression model using eight matchup features
-- Evaluate perfoormance using accuracy, precision, recall, F1 sore, and a confusion matrix
+- Evaluate perfoormance using accuracy, precision, recall, F1 score, and a confusion matrix
 
 ## Technologies
 Python, pandas, NumPy, scikit-learn, and Matplotlib
